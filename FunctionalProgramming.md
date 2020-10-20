@@ -1,1 +1,1 @@
-# Functional Programming
+# Week 1: Functional Programming
