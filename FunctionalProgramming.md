@@ -1,5 +1,6 @@
 # Step 1: Functional Programming
 
+## What is Functional Programming
 Functional programming is a very different method of programming than the traditional, imperative programming that one thinks of. 
 
 In imperative programming, each line of code tells the computer exactly what to do. This makes programming very procedural, because the programmer focus on what they need the code to do and write to achieve those actions. Common languages of imperative programming are C++ and Java. 
@@ -11,5 +12,6 @@ These short descriptions may be confusing, so I found an analogy on a Stack Over
 ### Useful Link:
 [Practical Differences Between Functional and Imperative Programming](https://sookocheff.com/post/fp/differences-between-imperative-and-functional/)
 
+## Intro to Haskell
 Haskell was difficult to first understand, because you have to think about how to implement what you want in a recursive manner.
 
