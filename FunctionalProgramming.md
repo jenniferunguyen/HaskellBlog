@@ -13,10 +13,9 @@ Because of how different functional programming works than imperative programmin
 ```
 int x = 1;
 int y = 2;
-int z = 0;
-z = x + y;
+y = x + y;
 ```
-
+As you can see, imperative programming gives you the ability to explicityly assign values to variables. In functional programming, you do not have the ability to create an instances where you can manually update its value. 
 ### Useful Link:
 [Practical Differences Between Functional and Imperative Programming](https://sookocheff.com/post/fp/differences-between-imperative-and-functional/)
 
