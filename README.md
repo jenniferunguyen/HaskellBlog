@@ -7,9 +7,9 @@ Downloading Haskell on my computer proved to be simple. Following the steps on t
 
 Downloading BNFC on my computer required an addition step of changing my namespace to be on the Google namespace, because I wasn't able to ping anything. I had to do the following steps:
 1. Open WSL as the administrator. 
-2. Type 'sudo bash' and enter your password.
-3. Type 'rm /etc/resolv.conf' to clear the current /etc/resolv.conf file.
-4. Update the file to have the public namespaces by typing 'echo nameserver 8.8.8.8 > /etc/resolv.conf' then 'echo nameserver 8.8.4.4 >> /etc/resolv.conf'.
-5. Verify that the changes have been made by typing 'cat /etc/resolv.conf'.
-6. To make the changes permanent (because I found that my /etc/resolv.conf file keep resetting itself to my IP), type 
+2. Type `sudo bash` and enter your password.
+3. Type `rm /etc/resolv.conf` to clear the current /etc/resolv.conf file.
+4. Update the file to have the public namespaces by typing `echo nameserver 8.8.8.8 > /etc/resolv.conf` then `echo nameserver 8.8.4.4 >> /etc/resolv.conf`.
+5. Verify that the changes have been made by typing `cat /etc/resolv.conf`.
+6. To make the changes permanent (because I found that my /etc/resolv.conf file keep resetting itself to my IP), type `sudo apt-get install resolvconf' then `sudo gedit /etc/resolvconf/resolv.conf.d/base`. 
 
