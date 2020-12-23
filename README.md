@@ -5,7 +5,7 @@ This blog is a progression of experiences related to learning about Haskell and 
 
 Downloading Haskell on my computer proved to be simple. Following the steps on the [Haskell site](https://www.haskell.org/platform/) was adequate. For the terminal, I used WSL and followed the [official site](https://docs.microsoft.com/en-us/windows/wsl/install-win10).
 
-Downloading BNFC on my computer required an addition step of changing my namespace to be on the Google namespace, because I wasn't able to ping anything. I had to do the following steps:
+Downloading BNFC on my computer required an addition step of changing my namespace to be on the Google namespace, because I wasn't able to ping anything. After hours of research, I have compiled what has worked for me. I had to do the following steps:
 1. Open WSL as the administrator. 
 2. Type `sudo bash` and enter your password.
 3. Type `rm /etc/resolv.conf` to clear the current /etc/resolv.conf file.
