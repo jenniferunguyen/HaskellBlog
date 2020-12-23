@@ -15,10 +15,10 @@ int x = 1;
 int y = 2;
 y = x + y;
 ```
-As you can see, imperative programming gives you the ability to explicitly assign values to variables. In functional programming, you do not have the ability to create an instances where you can manually update its value. Instead, you have to think of a recursive way to execute the same action. 
+As you can see, imperative programming gives you the ability to explicitly assign values to variables. In functional programming, you do not have the ability to create an instances where you can manually update its value. Instead, you have to think of a recursive way to execute the same action. This brings up one of the benefits of functional programming: your code can be significantly shorter than in imperative programming. 
 ### Useful Link:
 [Practical Differences Between Functional and Imperative Programming](https://sookocheff.com/post/fp/differences-between-imperative-and-functional/)
+[7 Unbeatable Advantages of Functional Programming](https://medium.com/@devisha.singh/7-unbeatable-advantages-of-functional-programming-b5d1af1edbe1)
 
 ## Intro to Haskell
-Haskell is the main functional programming language of this blog. Switching from imperative programming to functional programmin takes some time, because it requires one to think of the basis of a function. Let us first establish a method of counting for our program to demonstrate how to execute the same addition above. 
-
+Haskell is the main functional programming language of this blog. Switching from imperative programming to functional programmin takes some time, because it requires one to think of the basis of a function. 
