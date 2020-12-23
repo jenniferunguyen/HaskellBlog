@@ -3,7 +3,7 @@
 ## Background
 This blog is a progression of experiences related to learning about Haskell and programming languages. Before discussing anything about my experiences with Haskell and functional programming, it is important to establish some background. My computer is on Windows 10 Education, running with a 64-bit operating system, x64-based processor, and 12 GB RAM. I use Atom as my text editor and the Windows PowerShell for commands.
 
-Downloading Haskell on my computer proved to be simple. Following the steps on the [Haskell site]https://www.haskell.org/platform/ was adequate. For the terminal, I used WSL and followed the [official site]https://docs.microsoft.com/en-us/windows/wsl/install-win10.
+Downloading Haskell on my computer proved to be simple. Following the steps on the [Haskell site](https://www.haskell.org/platform/) was adequate. For the terminal, I used WSL and followed the [official site](https://docs.microsoft.com/en-us/windows/wsl/install-win10).
 
 Downloading BNFC on my computer required an addition step of changing my namespace to be on the Google namespace, because I wasn't able to ping anything. I had to do the following steps:
 1. Open WSL as the administrator. 
@@ -11,5 +11,5 @@ Downloading BNFC on my computer required an addition step of changing my namespa
 3. Type `rm /etc/resolv.conf` to clear the current /etc/resolv.conf file.
 4. Update the file to have the public namespaces by typing `echo nameserver 8.8.8.8 > /etc/resolv.conf` then `echo nameserver 8.8.4.4 >> /etc/resolv.conf`.
 5. Verify that the changes have been made by typing `cat /etc/resolv.conf`.
-6. To make the changes permanent (because I found that my /etc/resolv.conf file keep resetting itself to my IP), type `sudo apt-get install resolvconf' then `sudo gedit /etc/resolvconf/resolv.conf.d/base`. 
+6. To make the changes permanent (because I found that my /etc/resolv.conf file keep resetting itself to my IP), type `sudo apt-get install resolvconf` then `sudo gedit /etc/resolvconf/resolv.conf.d/base`. 
 
